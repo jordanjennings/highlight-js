@@ -56,7 +56,7 @@ Johann Burkard
 					var pos = (ignore ? replaceDiacritics(node.data) : node.data).toUpperCase().indexOf(currentTerm);
 					if (pos >= 0) {
 						var spannode = document.createElement('span');
-						spannode.className = 'highlight';
+						spannode.className = 'jquery-highlight-words';
 						var middlebit = node.splitText(pos);
 						var endbit = middlebit.splitText(currentTerm.length);
 						var middleclone = middlebit.cloneNode(true);
