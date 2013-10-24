@@ -10,7 +10,4 @@ Modification
 * 2012-12-20 - via @dgsmith2 
     * Added ability to control how diacritics are handled. Ignoring/honoring can be done on a case by case scenario via a parameter or on the whole by updating the default. 
     * Defined the plugin according to jQuery's documentation (but with the Bootstrap spin) as well as leverage built-in Array check.
-
-
-
-
+* 2013-10-23 - changed css class name to something a little more specific to avoid issues on external sites (when using in a greasemonkey/tampermonkey script)
